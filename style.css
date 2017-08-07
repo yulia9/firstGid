@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;}
+li{
+	list-style-type: none;
+}
+#FIO {
+	margin: 20px;
+	min-width: 500px;
+	max-width: 550px;
+	}
+	.name, .sername, .otch, .email, .number,.inputName,
+	.inputSername, .inputOtch, .inputEmail, .inputNumber{
+		text-align: center;
+		float: left;
+		height: 30px;
+		line-height: 30px;
+		width: 98px;
+		border: 1px solid silver;
+	}
+	.add {
+		float: left;
+		width: 498px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+		border: 1px solid silver
+	}
+
+	.add:hover{
+		background-color: silver;
+		cursor: pointer;}
+
+.FioAddLi{
+	height: 25px;
+	float: left;
+	width: 500px;
+	margin-top: 20px;
+	}
+	.FioAddLi li{
+		line-height: 23px;
+		width: 400px;
+		float: left;
+		border: 1px solid silver;
+		height: 23px;
+	}
+	.FioAddLi li:hover{
+		background-color: silver;
+		cursor: pointer;
+	}
+	.FioAddLi button{
+		float: left;
+		width: 92px;
+		height: 25px;
+		padding: 3px;
+	}
+
+.changeData{
+	float: left;
+	width: 500px;
+	background-color: white;
+	margin-top: 20px;
+	display: none;
+	}
+	.changeData input{
+		text-align: center;
+		height: 20px;
+		width: 98px;
+		float: left;
+		border: 1px solid red;
+	}
+	.changeData input:hover{
+			background-color: silver;
+			cursor: pointer;
+		}
+	.changeData button{
+		background-color: white;
+		text-align: center;
+		color: red;
+		height: 20px;
+		width: 500px;
+		float: left;
+		border: 1px solid red;
+		border-top: 0px;
+	}
+		.changeData button:hover{
+			background-color: silver;
+			cursor: pointer;
+		}
